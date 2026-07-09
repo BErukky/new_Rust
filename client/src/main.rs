@@ -90,6 +90,7 @@ fn main() {
         if msg == ":quit" || tx.send(msg).is_err() {
             break;
         }
-        println!("bye bye");
+        
     }
+    println!("bye bye");
 }
