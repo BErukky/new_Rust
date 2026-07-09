@@ -1,0 +1,5 @@
+# Ignore Rust build output
+**/target/
+
+# Ignore generated dependency lock files if you don't want them tracked
+# Cargo.lock
